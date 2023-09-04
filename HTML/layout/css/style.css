@@ -1,0 +1,17 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    float: left;
+    -webkit-animation: rotation 8s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from { -webkit-transform: rotate(0deg); }
+    to   { -webkit-transform: rotate(359deg); }
+}
+
